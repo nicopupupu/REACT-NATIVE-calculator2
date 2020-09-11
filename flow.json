@@ -3,3 +3,6 @@
     {
         "id": "f60386f8.fcca",
         "type": "tab",
+        "label": "IN: Weather Observed",
+        "disabled": false,
+        "info": ""
