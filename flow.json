@@ -10,3 +10,5 @@
     {
         "id": "6381ba4d.6646dc",
         "type": "tab",
+        "label": "IN: OpenSenseMap",
+        "disabled": false,
