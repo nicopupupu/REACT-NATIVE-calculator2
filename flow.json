@@ -22,3 +22,5 @@
         "method": "GET",
         "ret": "obj",
         "paytoqs": false,
+        "url": "",
+        "tls": "",
