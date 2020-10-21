@@ -40,3 +40,6 @@
         "id": "8084ae75.b9a0c",
         "type": "inject",
         "z": "f60386f8.fcca",
+        "name": "Trigger APIs",
+        "repeat": "60",
+        "crontab": "",
