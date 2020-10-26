@@ -47,3 +47,4 @@
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
+        "payloadType": "date",
