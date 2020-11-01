@@ -60,3 +60,5 @@
         "id": "6cbcc477.950634",
         "type": "function",
         "z": "f60386f8.fcca",
+        "name": "Setup OWM Request",
+        "func": "msg.url = \"https://api.openweathermap.org/data/2.5/weather?id=\"+env.get(\"SC_OWM_STATION\")+\"&units=metric&appid=\"+env.get(\"SC_OWM_API_KEY\");\nreturn msg;",
