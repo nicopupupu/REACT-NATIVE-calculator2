@@ -114,3 +114,5 @@
         "ret": "txt",
         "paytoqs": false,
         "url": "",
+        "tls": "",
+        "persist": false,
