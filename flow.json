@@ -131,3 +131,6 @@
         "id": "3aa3eb1f.29da4c",
         "type": "function",
         "z": "f60386f8.fcca",
+        "name": "Setup NGSI Request",
+        "func": "msg.url = env.get(\"SC_ORION_SERVER\")+\"/v2/entities\";\nmsg.headers = {};\nmsg.headers['Content-Type'] = 'application/json';\nmsg.headers['Fiware-Service'] = 'mainservice';\nreturn msg;",
+        "outputs": 1,
