@@ -164,3 +164,4 @@
         "id": "2c4280b2.4ae098",
         "type": "function",
         "z": "f60386f8.fcca",
+        "name": "Setup NGSI PUT Request",
