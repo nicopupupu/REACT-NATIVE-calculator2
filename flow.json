@@ -185,3 +185,6 @@
         "name": "Get current weather data from OWM for one Station",
         "info": "",
         "x": 250,
+        "y": 120,
+        "wires": []
+    },
