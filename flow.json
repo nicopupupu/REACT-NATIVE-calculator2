@@ -200,3 +200,6 @@
     },
     {
         "id": "737eae43.ef4c7",
+        "type": "function",
+        "z": "f60386f8.fcca",
+        "name": "Prepare NGSI Update Message",
