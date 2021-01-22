@@ -203,3 +203,4 @@
         "type": "function",
         "z": "f60386f8.fcca",
         "name": "Prepare NGSI Update Message",
+        "func": "var observed_at = new Date();\nmsg.payload={\n    \"atmosphericPressure\": {\n        \"value\": msg.owm.main.pressure\n    },\n    \"relativeHumidity\": {\n        \"value\": msg.owm.main.humidity\n    },\n    \"temperature\": {\n        \"value\": msg.owm.main.temp\n    },\n    \"windDirection\": {\n        \"value\": msg.owm.wind.deg\n    },\n    \"windSpeed\": {\n        \"value\": msg.owm.wind.speed\n    },\n    \"dateObserved\": {\n        \"value\": msg.owm.dt\n    }\n}\nreturn msg;",
