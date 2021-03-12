@@ -221,3 +221,5 @@
         "name": "http PUT Request",
         "method": "PUT",
         "ret": "txt",
+        "paytoqs": false,
+        "url": "",
