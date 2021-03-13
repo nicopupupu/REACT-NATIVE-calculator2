@@ -225,3 +225,6 @@
         "url": "",
         "tls": "",
         "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 250,
