@@ -251,3 +251,5 @@
         "type": "switch",
         "z": "f60386f8.fcca",
         "name": "Switch on StatusCode other than 204 to Create",
+        "property": "statusCode",
+        "propertyType": "msg",
