@@ -255,3 +255,5 @@
         "propertyType": "msg",
         "rules": [
             {
+                "t": "eq",
+                "v": "204",
