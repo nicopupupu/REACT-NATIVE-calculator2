@@ -265,3 +265,6 @@
                 "vt": "str"
             }
         ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
