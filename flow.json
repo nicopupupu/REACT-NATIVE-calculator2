@@ -268,3 +268,5 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
+        "x": 380,
+        "y": 600,
