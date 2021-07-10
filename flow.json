@@ -284,3 +284,4 @@
         "name": "",
         "active": false,
         "tosidebar": true,
+        "console": false,
