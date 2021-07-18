@@ -297,3 +297,5 @@
         "type": "function",
         "z": "f60386f8.fcca",
         "name": "Save OWM Response",
+        "func": "msg.owm = msg.payload;\nreturn msg;",
+        "outputs": 1,
