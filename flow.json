@@ -341,3 +341,4 @@
         "id": "72c646f.6cd4f38",
         "type": "function",
         "z": "f60386f8.fcca",
+        "name": "Prepare NGSI Subscription Create Message NR",
