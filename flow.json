@@ -367,3 +367,4 @@
         "tls": "",
         "persist": false,
         "proxy": "",
+        "authType": "",
