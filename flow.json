@@ -368,3 +368,5 @@
         "persist": false,
         "proxy": "",
         "authType": "",
+        "x": 250,
+        "y": 1100,
