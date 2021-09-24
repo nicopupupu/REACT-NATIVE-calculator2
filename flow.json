@@ -395,3 +395,5 @@
         "id": "7b54dda3.53f424",
         "type": "function",
         "z": "6381ba4d.6646dc",
+        "name": "Save openSenseMap Response",
+        "func": "msg.osm = msg.payload;\nreturn msg;",
