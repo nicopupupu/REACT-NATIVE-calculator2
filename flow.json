@@ -398,3 +398,6 @@
         "name": "Save openSenseMap Response",
         "func": "msg.osm = msg.payload;\nreturn msg;",
         "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 340,
