@@ -411,3 +411,5 @@
         "id": "1494bacd.4760ad",
         "type": "http request",
         "z": "6381ba4d.6646dc",
+        "name": "openSenseMap GET",
+        "method": "GET",
