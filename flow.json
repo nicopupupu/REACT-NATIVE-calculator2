@@ -413,3 +413,5 @@
         "z": "6381ba4d.6646dc",
         "name": "openSenseMap GET",
         "method": "GET",
+        "ret": "obj",
+        "paytoqs": false,
