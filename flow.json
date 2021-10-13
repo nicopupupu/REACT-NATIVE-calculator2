@@ -436,3 +436,4 @@
         "func": "sensorId=env.get(\"SC_OSM_SENSOR_ID\");\nmsg.url = \"https://api.opensensemap.org/boxes/\"+sensorId+\"?format=json\";\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
+        "x": 210,
