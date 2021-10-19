@@ -448,3 +448,7 @@
         "id": "d7eefca2.7ecbd8",
         "type": "comment",
         "z": "6381ba4d.6646dc",
+        "name": "Get current sensor data from luftdaten.info",
+        "info": "",
+        "x": 220,
+        "y": 100,
