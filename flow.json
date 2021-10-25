@@ -461,3 +461,4 @@
         "name": "Trigger APIs",
         "repeat": "120",
         "crontab": "",
+        "once": true,
