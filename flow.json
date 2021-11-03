@@ -479,3 +479,4 @@
         "type": "function",
         "z": "6381ba4d.6646dc",
         "name": "Prepare NGSI Create Message",
+        "func": "msg.payload=msg.payload={\n    \"id\": \"urn:ngsi-ld:Germany-AirQualityObserved\"+msg.osm._id,\n    \"type\": \"AirQualityObserved\",\n    \"dateObserved\": msg.osm.updatedAt,\n    \"location\": {\n        \"type\": \"Point\",\n        \"coordinates\": [msg.osm.currentLocation.coordinates[0], msg.osm.currentLocation.coordinates[1]]\n    },\n    \"source\": \"https://opensensemap.org\",\n    \"precipitation\": 0,\n    \"relativeHumidity\": parseFloat(msg.osm.sensors[3].lastMeasurement.value),\n    \"temperature\": parseFloat(msg.osm.sensors[2].lastMeasurement.value),\n    \"atmosphericPressure\": parseFloat(msg.osm.sensors[4].lastMeasurement.value),\n    \"PM2.5\": parseFloat(msg.osm.sensors[1].lastMeasurement.value),\n    \"PM10\": parseFloat(msg.osm.sensors[0].lastMeasurement.value)\n}\n\nreturn msg;\n",
