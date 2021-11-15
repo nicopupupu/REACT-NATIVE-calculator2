@@ -498,3 +498,5 @@
         "active": false,
         "tosidebar": true,
         "console": false,
+        "tostatus": false,
+        "complete": "true",
