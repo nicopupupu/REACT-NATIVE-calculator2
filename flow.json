@@ -495,3 +495,5 @@
         "type": "debug",
         "z": "6381ba4d.6646dc",
         "name": "",
+        "active": false,
+        "tosidebar": true,
