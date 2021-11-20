@@ -510,3 +510,4 @@
         "type": "http request",
         "z": "6381ba4d.6646dc",
         "name": "http POST Request",
+        "method": "POST",
