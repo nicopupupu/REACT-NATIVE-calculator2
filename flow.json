@@ -516,3 +516,4 @@
         "url": "",
         "tls": "",
         "persist": false,
+        "proxy": "",
