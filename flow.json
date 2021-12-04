@@ -531,3 +531,4 @@
         "id": "d8625e95.35b1c8",
         "type": "function",
         "z": "6381ba4d.6646dc",
+        "name": "Setup NGSI Request",
