@@ -595,3 +595,4 @@
         "name": "Prepare NGSI Update Message",
         "func": "msg.payload={\n    \"dateObserved\": msg.osm.updatedAt,\n    \"location\": {\n        \"type\": \"Point\",\n        \"coordinates\": [msg.osm.currentLocation.coordinates[0], msg.osm.currentLocation.coordinates[1]]\n    },\n    \"source\": \"https://opensensemap.org\",\n    \"precipitation\": 0,\n    \"relativeHumidity\": parseFloat(msg.osm.sensors[3].lastMeasurement.value),\n    \"temperature\": parseFloat(msg.osm.sensors[2].lastMeasurement.value),\n    \"atmosphericPressure\": parseFloat(msg.osm.sensors[4].lastMeasurement.value),\n    \"PM2.5\": parseFloat(msg.osm.sensors[1].lastMeasurement.value),\n    \"PM10\": parseFloat(msg.osm.sensors[0].lastMeasurement.value)\n}\nreturn msg;\n",
         "outputs": 1,
+        "noerr": 0,
