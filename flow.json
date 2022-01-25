@@ -615,3 +615,5 @@
         "url": "",
         "tls": "",
         "persist": false,
+        "proxy": "",
+        "authType": "",
