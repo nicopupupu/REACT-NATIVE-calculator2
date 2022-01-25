@@ -606,3 +606,7 @@
     },
     {
         "id": "6de48f13.3341d8",
+        "type": "http request",
+        "z": "6381ba4d.6646dc",
+        "name": "http PUT Request",
+        "method": "PUT",
