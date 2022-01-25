@@ -610,3 +610,5 @@
         "z": "6381ba4d.6646dc",
         "name": "http PUT Request",
         "method": "PUT",
+        "ret": "txt",
+        "paytoqs": false,
