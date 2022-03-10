@@ -644,3 +644,4 @@
         "property": "statusCode",
         "propertyType": "msg",
         "rules": [
+            {
