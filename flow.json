@@ -659,3 +659,5 @@
         "repair": false,
         "outputs": 2,
         "x": 380,
+        "y": 640,
+        "wires": [
