@@ -712,3 +712,7 @@
         "wires": []
     },
     {
+        "id": "76957972.417f5",
+        "type": "function",
+        "z": "6381ba4d.6646dc",
+        "name": "Prepare NGSI Subscription Create Message NR",
