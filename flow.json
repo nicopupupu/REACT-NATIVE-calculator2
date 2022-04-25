@@ -716,3 +716,6 @@
         "type": "function",
         "z": "6381ba4d.6646dc",
         "name": "Prepare NGSI Subscription Create Message NR",
+        "func": "var observed_at = new Date();\nmsg.payload={\n  \"description\": \"Store Open Sense Map Data\",\n  \"subject\": {\n    \"entities\": [\n      { \"idPattern\":\".*\",\n        \"type\": \"AirQualityObserved\"\n      }\n    ],\n    \"condition\": {\n      \"attrs\": [\n        \"dateObserved\"\n      ]\n    }\n  },\n  \"notification\": {\n    \"http\": {\n      \"url\": env.get(\"SC_NOTIFY_SERVER\")+\"/notify\"\n    }\n  },\n  \"throttling\": 40\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
