@@ -802,3 +802,5 @@
     {
         "id": "8f08d197.876d28",
         "type": "inject",
+        "z": "6381ba4d.6646dc",
+        "name": "Trigger Subscription Manually",
