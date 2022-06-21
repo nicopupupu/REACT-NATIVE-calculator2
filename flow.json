@@ -804,3 +804,4 @@
         "type": "inject",
         "z": "6381ba4d.6646dc",
         "name": "Trigger Subscription Manually",
+        "repeat": "",
