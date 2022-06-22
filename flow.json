@@ -805,3 +805,5 @@
         "z": "6381ba4d.6646dc",
         "name": "Trigger Subscription Manually",
         "repeat": "",
+        "crontab": "",
+        "once": false,
