@@ -842,3 +842,5 @@
         "type": "http request",
         "z": "f60386f8.fcca",
         "name": "http POST Request",
+        "method": "POST",
+        "ret": "txt",
