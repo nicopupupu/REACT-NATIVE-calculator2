@@ -864,3 +864,5 @@
         "z": "f60386f8.fcca",
         "name": "",
         "active": false,
+        "tosidebar": true,
+        "console": false,
