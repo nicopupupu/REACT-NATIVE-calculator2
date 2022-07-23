@@ -876,3 +876,5 @@
     {
         "id": "ac9009d2.a15598",
         "type": "function",
+        "z": "6381ba4d.6646dc",
+        "name": "Prepare NGSI Subscription Create Message QL",
