@@ -916,3 +916,6 @@
         "id": "4550cbce.a6a1a4",
         "type": "debug",
         "z": "6381ba4d.6646dc",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
