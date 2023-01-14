@@ -5,4 +5,4 @@
     "dependencies": {},
     "node-red": {
         "settings": {
-            "flowFile": "flow.js
+            "flowFile": "flow.json"
